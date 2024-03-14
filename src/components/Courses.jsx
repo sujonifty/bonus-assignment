@@ -1,6 +1,10 @@
 import Course from "./Course";
 import Cart from "./Cart";
+import { useEffect } from "react";
 const Courses = () => {
+    useEffect(()=>{
+        fetch()
+    },[])
     return (
 
         <div>
