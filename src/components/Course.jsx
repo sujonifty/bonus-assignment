@@ -1,6 +1,7 @@
 import { FaDollarSign } from "react-icons/fa6";
 import { IoMdBook } from "react-icons/io";
-const Course = () => {
+const Course = ({item}) => {
+    
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl">
